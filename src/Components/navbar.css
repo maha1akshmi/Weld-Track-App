@@ -1,0 +1,71 @@
+nav {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  background-color: ivory;
+  padding: 20px;
+  width: 250px;
+  height: 100vh; /* Full screen height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #02312c; /* Dark green cyan */
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: column; /* Ensure the list items stack vertically */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: #f8f8f8;
+  background-color: #1c8185;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+li a:hover {
+  background-color: rgb(18, 110, 110);
+  transform: scale(1.05);
+}
+
+li a:active {
+  background-color: #135c5e;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    box-shadow: none;
+  }
+
+  .weldgun-details {
+    max-width: 90%;
+  }
+}

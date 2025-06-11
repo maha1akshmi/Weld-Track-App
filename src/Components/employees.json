@@ -1,0 +1,208 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "shiftNo": "A1",
+    "inTime": "08:00 AM",
+    "timeDelay": "5 mins",
+    "weldGun": [
+      {
+        "programNo": "P1",
+        "weldCurrent": "150A",
+        "cycle": "2.5",
+        "spotCount": "200",
+        "force": "10KN"
+      },
+      {
+        "programNo": "P2",
+        "weldCurrent": "160A",
+        "cycle": "3.0",
+        "spotCount": "180",
+        "force": "12KN"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "shiftNo": "B1",
+    "inTime": "09:00 AM",
+    "timeDelay": "10 mins",
+    "weldGun": [
+      {
+        "programNo": "P1",
+        "weldCurrent": "170A",
+        "cycle": "2.8",
+        "spotCount": "220",
+        "force": "11KN"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Alex Johnson",
+    "shiftNo": "A2",
+    "inTime": "07:30 AM",
+    "timeDelay": "0 mins",
+    "weldGun": [
+      {
+        "programNo": "P3",
+        "weldCurrent": "140A",
+        "cycle": "2.2",
+        "spotCount": "190",
+        "force": "9KN"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Emily Davis",
+    "shiftNo": "C1",
+    "inTime": "10:00 AM",
+    "timeDelay": "15 mins",
+    "weldGun": [
+      {
+        "programNo": "P2",
+        "weldCurrent": "155A",
+        "cycle": "2.6",
+        "spotCount": "210",
+        "force": "10.5KN"
+      },
+      {
+        "programNo": "P4",
+        "weldCurrent": "165A",
+        "cycle": "3.1",
+        "spotCount": "170",
+        "force": "13KN"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Michael Brown",
+    "shiftNo": "B2",
+    "inTime": "09:15 AM",
+    "timeDelay": "8 mins",
+    "weldGun": [
+      {
+        "programNo": "P5",
+        "weldCurrent": "180A",
+        "cycle": "3.0",
+        "spotCount": "200",
+        "force": "12KN"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Sarah Wilson",
+    "shiftNo": "A1",
+    "inTime": "08:10 AM",
+    "timeDelay": "5 mins",
+    "weldGun": [
+      {
+        "programNo": "P1",
+        "weldCurrent": "150A",
+        "cycle": "2.4",
+        "spotCount": "190",
+        "force": "10KN"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "David Lee",
+    "shiftNo": "C2",
+    "inTime": "10:30 AM",
+    "timeDelay": "20 mins",
+    "weldGun": [
+      {
+        "programNo": "P3",
+        "weldCurrent": "175A",
+        "cycle": "3.5",
+        "spotCount": "250",
+        "force": "11KN"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Sophia Martinez",
+    "shiftNo": "A3",
+    "inTime": "07:45 AM",
+    "timeDelay": "2 mins",
+    "weldGun": [
+      {
+        "programNo": "P2",
+        "weldCurrent": "160A",
+        "cycle": "2.7",
+        "spotCount": "180",
+        "force": "10.8KN"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "James Taylor",
+    "shiftNo": "B3",
+    "inTime": "09:20 AM",
+    "timeDelay": "12 mins",
+    "weldGun": [
+      {
+        "programNo": "P4",
+        "weldCurrent": "145A",
+        "cycle": "3.2",
+        "spotCount": "230",
+        "force": "12.5KN"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Chloe Anderson",
+    "shiftNo": "A1",
+    "inTime": "08:05 AM",
+    "timeDelay": "3 mins",
+    "weldGun": [
+      {
+        "programNo": "P5",
+        "weldCurrent": "170A",
+        "cycle": "3.0",
+        "spotCount": "210",
+        "force": "11KN"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Ethan Thomas",
+    "shiftNo": "B1",
+    "inTime": "09:10 AM",
+    "timeDelay": "7 mins",
+    "weldGun": [
+      {
+        "programNo": "P1",
+        "weldCurrent": "160A",
+        "cycle": "2.9",
+        "spotCount": "195",
+        "force": "10.2KN"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Olivia Moore",
+    "shiftNo": "C1",
+    "inTime": "10:15 AM",
+    "timeDelay": "18 mins",
+    "weldGun": [
+      {
+        "programNo": "P2",
+        "weldCurrent": "155A",
+        "cycle": "2.8",
+        "spotCount": "205",
+        "force": "12KN"
+      }
+    ]
+  }
+]
