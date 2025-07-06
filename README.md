@@ -48,12 +48,12 @@
 ### ⚙️ Installation Steps
 
 1. **Clone the repository**
-   git clone https://github.com/your-username/weld-track-app.git
+   -git clone https://github.com/your-username/weld-track-app.git
 2. **Navigate to the project directory**
-  cd weld-track-app
+  -cd weld-track-app
 3. **Install the dependencies**
-   npm install
+   -npm install
 4. **Start the development server**
-  npm start
+  -npm start
 5. **Open your browser and visit**
-   http://localhost:3000
+   -http://localhost:3000
