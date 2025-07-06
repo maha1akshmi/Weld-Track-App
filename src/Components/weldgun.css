@@ -20,13 +20,14 @@ h2, h3 {
 
 .weldgun-details {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 40px auto 40px 250px; /* ⬅️ Shift right by 250px */
   background-color: #fff;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
 
 .search-container {
   margin: 30px 0;

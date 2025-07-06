@@ -1,11 +1,21 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #b3e1eb;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sidebar Navigation */
 nav {
   display: flex;
-  flex-direction: column; /* Align items vertically */
+  flex-direction: column;
   background-color: ivory;
   padding: 20px;
   width: 250px;
   height: 100vh; /* Full screen height */
-  position: fixed;
+  position: fixed; /* Fixes navbar to the left */
   top: 0;
   left: 0;
   z-index: 10;
@@ -14,7 +24,7 @@ nav {
 
 nav h1 {
   font-size: 1.8rem;
-  color: #02312c; /* Dark green cyan */
+  color: #02312c;
   text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
@@ -23,7 +33,7 @@ nav h1 {
 
 ul {
   display: flex;
-  flex-direction: column; /* Ensure the list items stack vertically */
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -56,7 +66,152 @@ li a:active {
   background-color: #135c5e;
 }
 
-/* Responsive Enhancements */
+/* Main content shifted to the right of the sidebar */
+main {
+  margin-left: 270px; /* width of sidebar + spacing */
+  padding: 20px;
+}
+
+/* Weldgun Details Container */
+.weldgun-details {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+.search-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+input {
+  padding: 12px;
+  font-size: 18px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+input:focus {
+  border-color: #6c7ae0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(108, 122, 224, 0.4);
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #005f73;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a68c6;
+}
+
+.fields-container {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 20px;
+}
+
+.fields-container p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.fields-container strong {
+  color: #333;
+  font-weight: bold;
+}
+
+.no-details {
+  color: red;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #4caf50;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.weldgun-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #eaf7e9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.weldgun-details-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: left;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
+
+.weldgun-details-card p {
+  margin: 8px 0;
+  color: #444;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   nav {
     width: 100%;
@@ -65,7 +220,52 @@ li a:active {
     box-shadow: none;
   }
 
+  main {
+    margin-left: 500px;
+  }
+
   .weldgun-details {
+    padding: 20px;
     max-width: 90%;
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input, button {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .fields-container {
+    font-size: 18px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .flex-item {
+    flex: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .weldgun-details {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .fields-container {
+    font-size: 16px;
   }
 }
