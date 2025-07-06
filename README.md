@@ -32,16 +32,16 @@ Weld Track App is a frontend web application built with ReactJS and custom CSS, 
 - Node.js (v14 or above)
 - npm (Node Package Manager)
 
-### ⚙️ Installation Steps
+## ⚙️ Installation Steps
 
-## 1.Clone the repository
+### 1.Clone the repository
    git clone https://github.com/your-username/weld-track-app.git
-## 2.Navigate to the project directory:
+### 2.Navigate to the project directory:
    cd weld-track-app
-## 3.Install the dependencies:
+### 3.Install the dependencies:
     npm install
-## 4.Start the development server:
+### 4.Start the development server:
     npm start
-## 5.Open your browser and go to:
+### 5.Open your browser and go to:
     http://localhost:3000
 
